@@ -4,8 +4,11 @@ from django.shortcuts import render
 from goods.models import Products
 
 
-def catalog(request: HttpRequest):
-    goods = Products.objects.all()
+def catalog(request: HttpRequest, category_slug: str):
+    if category_slug == 'all':
+        goods = Products.objects.all()
+    else:
+        goods = Products.objects.filter(category__slug=category_slug)
     context = {
         "title": "Home - Каталог",
         "goods": goods,

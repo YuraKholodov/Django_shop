@@ -50,7 +50,7 @@
                             {% if product.discount %}
                                 <p class="pe-1"><s>{{ product.price }}</s>$</p>
                                 <p class="pe-1"><strong>{{ product.sell_price }}$</strong></p>
-                                <p class="bg-warning text-dark">Скидка {{ product.discount }}%</p>
+                                <span class="badge bg-warning text-dark">Скидка {{ product.discount }}%</span>
                             {% else %}
                                 <p><strong>{{ product.price }} $</strong></p>
                             {% endif %}
