@@ -29,6 +29,8 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/APP1/goods/templates" />
+        <option value="$MODULE_DIR$/APP1/users/templates" />
+        <option value="$MODULE_DIR$/APP1/main/templates" />
       </list>
     </option>
   </component>
