@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/APP1/fixtures/goods/categ.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/APP1/fixtures/goods/cats.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/APP1/fixtures/goods/prod.json" charset="windows-1251" />
+  </component>
+</project>
